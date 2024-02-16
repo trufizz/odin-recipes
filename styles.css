@@ -4,7 +4,7 @@ body {
     color: rgb(203, 198, 196);
 }
 
-#head {
+.head {
     font-family: "Roboto", sans-serif;
     font-size: 44px;
     font-weight: bolder;
@@ -19,7 +19,21 @@ body {
     margin-right: auto;
 }
 
-.frontp {
+#noodle {
+    width: auto;
+    height: 310px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.text.front {
     font-family: "Roboto", sans-serif;
     font-size: 18px;
     text-align: center;
