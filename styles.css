@@ -21,7 +21,15 @@ body {
 
 #noodle {
     width: auto;
-    height: 310px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bread {
+    width: auto;
+    height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
