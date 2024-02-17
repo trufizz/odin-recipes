@@ -1,10 +1,11 @@
 
 body {
-    background-color: rgb(17, 24, 39);
-    color: rgb(203, 198, 196);
+    background-color: hsla(32, 33%, 67%, 1);
+    color: hsla(30, 11%, 4%, 1);
 }
 
 .head {
+    border: 4px inset hsla(33, 20%, 31%, 1);
     font-family: "Roboto", sans-serif;
     font-size: 44px;
     font-weight: bolder;
@@ -17,6 +18,7 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding: 15px;
 }
 
 #noodle {
@@ -47,6 +49,8 @@ body {
     font-family: "Roboto", sans-serif;
     font-size: 18px;
     line-height: 2;
+    padding: 12px;
+    border: 5px dotted hsla(31, 33%, 88%, 1);
 }
 
 .text.front {
@@ -54,6 +58,8 @@ body {
     font-size: 18px;
     text-align: center;
     list-style-position: inside;
+    border: 5px dotted hsla(31, 33%, 88%, 1);
+    margin: auto;
 }
 
 .back {
@@ -63,3 +69,17 @@ body {
     text-align: center;
     color: red;
 }
+
+/* CSS HEX 
+--black: #0a0908ff;
+--gunmetal: #22333bff;
+--almond: #eae0d5ff;
+--khaki: #c6ac8fff;
+--walnut-brown: #5e503fff;
+
+ CSS HSL 
+--black: hsla(30, 11%, 4%, 1);
+--gunmetal: hsla(199, 27%, 18%, 1);
+--almond: hsla(31, 33%, 88%, 1);
+--khaki: hsla(32, 33%, 67%, 1);
+--walnut-brown: hsla(33, 20%, 31%, 1); */
